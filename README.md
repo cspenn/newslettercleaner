@@ -4,6 +4,8 @@
 
 The purpose of this code is to take a list of shortened bit.ly or other redirected URLs, lengthen them, chop off any existing UTM codes and other query parameters to produce a clean URL, then append new UTM codes to it and re-shorten with bit.ly. The output is a CSV, pipe-delimited, which you can then import into spreadsheets, databases, etc.
 
+A sample input.txt of URLs is provided for testing purposes.
+
 ## Prerequisites
 
 The following software must be installed:
@@ -22,7 +24,7 @@ This script takes those shortened URLs, lengthens them, chops off the previous U
 
 ## Warranty and Disclaimer
 
-This software comes with absolutely no warranty whatsoever. You accept all risk when you download and install it. No support is provided, either. You’re on your own.
+This software comes with absolutely no warranty whatsoever. You accept all risk when you download and ins..tall it. No support is provided, either. You’re on your own.
 
 ## License
 

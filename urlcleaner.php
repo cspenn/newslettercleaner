@@ -20,7 +20,7 @@ Read the full README.md for details.
 
 // configuration stuff
 
-date_default_timezone_set('America/New_York');
+date_default_timezone_set('America/New_York'); // set according to your time zone
 ini_set('auto_detect_line_endings', TRUE);
 
 $apikey = "INSERT YOUR BITLY API KEY HERE";
@@ -29,7 +29,7 @@ $apikey = "INSERT YOUR BITLY API KEY HERE";
 
 $stamp      = date("Y-m-d-h-i-s");
 $shortstamp = date("Y-m-d");
-$logfile    = "newsletteroutput-$stamp.csv";
+$logfile    = "output-$stamp.csv";
 $fp         = fopen($logfile, "w");
 fwrite($fp, "URL|count\n");
 
