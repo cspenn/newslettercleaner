@@ -3,7 +3,8 @@
 /***********************************************
 
 Bitly newsletter cleaner
-Copyright © 2016 Christopher S. Penn
+Copyright © 2016 Christopher S. Penn.
+Licensed under the GNU GPL 3.0. Please view the LICENSE.md included for full terms.
 
 The purpose of this code is to take a list of shortened bit.ly or other redirected URLs, lengthen them, chop off any existing UTM codes and other query parameters to produce a clean URL, then append new UTM codes to it and re-shorten with bit.ly. The output is a CSV, pipe-delimited.
 
@@ -12,6 +13,8 @@ Requirements:
 cUrl for PHP/CLI
 A bit.ly API key 
 Read/write access to the local disk
+
+Read the full README.md for details.
 
 ************************************************/
 
