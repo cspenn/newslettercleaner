@@ -33,7 +33,7 @@ $apikey = "PUT YOUR BITLY API KEY HERE";
 
 $stamp      = date("Y-m-d-h-i-s");
 $shortstamp = date("Y-m-d");
-$logfile    = "output-$stamp.csv";
+$logfile    = "output-$stamp.md"; // change md to csv if you want csv instead
 $fp         = fopen($logfile, "w");
 //fwrite($fp, "URL|count\n");
 
