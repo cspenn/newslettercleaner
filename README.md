@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this code is to take a list of shortened bit.ly or other redirected URLs, lengthen them, chop off any existing UTM codes and other query parameters to produce a clean URL, then append new UTM codes to it and re-shorten with bit.ly. The output is a CSV, pipe-delimited, which you can then import into spreadsheets, databases, etc.
+The purpose of this code is to take a list of shortened bit.ly or other redirected URLs, lengthen them, chop off any existing UTM codes and other query parameters to produce a clean URL, then append new UTM codes to it and re-shorten with bit.ly. The output is a markdown file ready for markdown ready editors. Code for a CSV output is also included.
 
 A sample input.txt of URLs is provided for testing purposes.
 
