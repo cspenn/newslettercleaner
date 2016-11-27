@@ -1,8 +1,8 @@
-# Bit.ly URL cleaner and shortener
+# Newsletter Cleaner and Prep script
 
 ## Purpose
 
-The purpose of this code is to take a list of shortened bit.ly or other redirected URLs, lengthen them, chop off any existing UTM codes and other query parameters to produce a clean URL, then append new UTM codes to it and re-shorten with bit.ly. The output is a markdown file ready for markdown ready editors. Code for a CSV output is also included.
+The purpose of this code is to take a list of URLs and expand them if shortened, trim off analytics tracking tags, then add new tags, re-shorten, and append with HTML page titles into Markdown format for use on Github and in any Markdown-compliant writing software.
 
 A sample input.txt of URLs is provided for testing purposes.
 
@@ -20,7 +20,7 @@ You should also have a working knowledge of UTM codes and how they apply to Goog
 
 I ran into an attribution problem when I put together my newsletter. I was re-using links I had shared on social media with tools like Buffer, which encode their own UTM tracking codes. When I re-used those URLs, I was destroying any chance I had of tracking and attributing my email marketing performance in my Google Analytics.
 
-This script takes those shortened URLs, lengthens them, chops off the previous UTM parameters (and any other query parameters), and produces a long clean link. It then appends UTM codes of our choosing to the URL, and re-shortens it to look nice for email marketing.
+This script takes any list of URLs, lengthens them if shortened, chops off the previous UTM parameters (and any other query parameters), and produces a long clean link. It then appends UTM codes of our choosing to the URL, and re-shortens it to look nice for email marketing in Markdown.
 
 ## Warranty and Disclaimer
 
